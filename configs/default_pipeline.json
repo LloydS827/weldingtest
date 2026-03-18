@@ -1,0 +1,33 @@
+{
+  "roi": {
+    "min_x": -0.3,
+    "max_x": 1.4,
+    "min_y": -0.3,
+    "max_y": 1.4,
+    "min_z": -0.4,
+    "max_z": 1.2
+  },
+  "voxel_size": 0.04,
+  "outlier_radius": 0.11,
+  "outlier_min_neighbors": 2,
+  "background_tolerance": 0.05,
+  "plane_distance_threshold": 0.025,
+  "plane_ransac_iterations": 180,
+  "environment_plane_min_inliers": 30,
+  "environment_plane_min_span": 0.8,
+  "environment_boundary_margin": 0.08,
+  "max_environment_planes": 3,
+  "cluster_tolerance": 0.1,
+  "cluster_min_points": 25,
+  "cluster_keep_top_k": 2,
+  "plane_extraction_min_inliers": 25,
+  "max_workpiece_planes": 6,
+  "seam_line_distance_threshold": 0.05,
+  "seam_segment_gap": 0.12,
+  "seam_min_support_points": 12,
+  "seam_min_length": 0.35,
+  "expected_height_range": [-0.05, 0.9],
+  "preferred_approach_vector": [1.0, 0.0, 1.0],
+  "final_score_threshold": 0.58
+}
+
